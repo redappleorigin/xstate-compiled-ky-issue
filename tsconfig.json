@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node",
+      "jest"
+    ],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "outDir": "bin",
+    "baseUrl": "src",
+    "noImplicitAny": false,
+  },
+  "include": [
+    "src",
+    "modules.d.ts"
+  ]
+}
